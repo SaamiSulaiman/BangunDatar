@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/png"
+        android:layout_width="match_parent"
+        android:layout_height="124dp"
+        android:src="@drawable/download" />
+
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Luas Jajar Genjang"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/alas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Alas"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/tinggi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tinggi"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/cari"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cari!"/>
+
+    <TextView
+        android:id="@+id/hasil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
